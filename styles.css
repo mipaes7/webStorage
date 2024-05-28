@@ -11,21 +11,24 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 24px;
-
+    background-color: #E8DFCA;
+    color: #F5EFE6;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 6px;
 }
 
 .contenedorGrande {
     display: flex;
     flex-direction: row;
     gap: 54px;
-    background-color: aqua;
+    background-color: #1A4D2E;
     padding: 8px;
+    border-radius: 8px;
 }
 
 #productos {
@@ -33,8 +36,9 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    background-color: yellow;
+    background-color: #4F6F52;
     padding: 8px;
+    border-radius: 8px;
 }
 
 #productos ul {
@@ -54,8 +58,9 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    background-color: blueviolet;
+    background-color: #4F6F52;
     padding: 8px;
+    border-radius: 8px;
 }
 
 #lista ul {
